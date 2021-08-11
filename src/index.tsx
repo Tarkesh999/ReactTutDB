@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MyComponent from './components/MyComponent';
+import AppRouter from './AppRouter';
+import Dashboard from './components/DashBoard';
+import Registration from './components/Registration';
+import Gallery from './components/Gallery';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App username={undefined} userType="user"/>
+    <MyComponent /> */}
+    <AppRouter />
+    {/* <Dashboard /> */}
+    {/* <Registration /> */}
+    {/* <Gallery /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
