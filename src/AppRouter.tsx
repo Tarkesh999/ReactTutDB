@@ -19,7 +19,7 @@ const AppRouter: React.FC = ():JSX.Element =>  {
             <Route path="/" exact component={Dashboard}/>
             <Route path="/gallery" component={Gallery} />
             <Route path="/registration" component={Registration} />
-            <Route path="/gallery/product/:id" component={Product} />
+            <Route path="/product/:id" component={Product} />
         </Switch>
         </div>
     </Router>
